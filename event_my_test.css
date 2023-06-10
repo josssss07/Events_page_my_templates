@@ -20,11 +20,15 @@
     min-width: 300px;
     min-height: 20vh;
     margin: 15px;
-
-
+    
     font-size:5em ;
     text-align: center;
-    line-height: 300px;
+    line-height: 30px;
     background-color: #fff8ef;
     border-radius: 7px;
+}
+
+.img-prop{
+    height:300px;
+    width: 30vh;
 }
