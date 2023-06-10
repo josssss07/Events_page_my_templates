@@ -1,0 +1,30 @@
+#carousel{
+    display: flex;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    margin: 0 auto 0 auto;
+    width: 90vw;
+    height: fit-content;
+
+    border: solid #f3e6ff .5px;
+}
+
+#carousel::-webkit-scrollbar{
+    display: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.item{
+    min-width: 300px;
+    min-height: 20vh;
+    margin: 15px;
+
+
+    font-size:5em ;
+    text-align: center;
+    line-height: 300px;
+    background-color: #fff8ef;
+    border-radius: 7px;
+}
